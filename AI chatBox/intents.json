@@ -1,0 +1,44 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "How are you?", "Is antone is there?", "Hello", "Good day", "Wat's up"],
+    "responses": ["Hello!", "Good tosee you again!", "Hi there, how can i help you?"],
+    "context_set": ""
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a good day"],
+    "responses": ["Sad to see you :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+    },
+
+    {"tag": "age   ",
+    "patterns": ["how old", "How old is smit", "What is your age?", "How old are you?", "age?"],
+    "responses": ["I am 19 years old!", "19 years old!"],
+    "context_set": ""
+    },
+
+    {"tag": "name",
+    "patterns": ["What is your name", "what should i call you", "What's your name?"],
+    "responses": ["You can call me smit", "I,m smit"],
+    "context_set": ""
+    },
+
+    {"tag": "shop",
+    "patterns": ["Id like to buy something", "whats on the menu", "What do you recommand?", "could i get something?"],
+    "responses": ["We sell chocolate chip cookies for understandeble price!", "Coockies are on the  menu!"],
+    "context_set": ""
+    },
+
+    {"tag": "hours, open",
+    "patterns": ["When are you guys open", "what are your hours", "hours of operacction", "When this shope is open"],
+    "responses": ["We are open at 8pm - 10pm  Monday - Saturday!"],
+    "context_set": ""
+    },
+
+    {"tag": "buy",
+    "patterns": ["can i buy something", "How much is coockies", "Price of coockies"],
+    "responses": ["Yes coockies are 150 Rs. per kilograme"],
+    "context_set": ""
+    }
+
+]}
